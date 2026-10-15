@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--ink:#1e1712;--cream:#f7f0e5;--paper:#fffaf2;--accent:#a33b22;--gold:#c9984a}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,sans-serif}
+::selection{background:#c9984a;color:#fff}.serif{font-family:Georgia,serif}.paper{background:var(--paper)}
